@@ -18,6 +18,8 @@
 \usecolortheme{dove}
 \usefonttheme[onlysmall]{structurebold}
 
+\addto\captionsngerman{\renewcommand{\figurename}{Abb.}}
+
 \begin{document}
 	\title{Dynamische Programmierung (DP)}
 	\subtitle{am Beispiel des Wechselgeldproblems}
@@ -37,10 +39,10 @@
 
 	\begin{frame}{{\footnotesize\insertsectionhead\\}Das Wechselgeldproblem}
 		\begin{itemize}[<+->]
-			\item Lea steht in der Schlange vor der Kasse im Supermarkt...
-			\item ...und möchte den Rentnern vor ihr helfen, das Kleingeld herauszusuchen.
+			\item Philip steht in der Schlange vor der Kasse im Supermarkt...
+			\item ...und möchte den Rentnern vor ihm helfen, das Kleingeld herauszusuchen.
 			\item \textbf{Problem:} Rentner brauchen viel Zeit, um eine Münze herauszusuchen.
-			\item Lea will Betrag so aufteilen, dass Rentner möglichst wenige Münzen brauchen.
+			\item Philip will Betrag so aufteilen, dass Rentner möglichst wenige Münzen brauchen.
 		\end{itemize}
 	\end{frame}
 
@@ -257,7 +259,7 @@
 	\begin{itemize}[<+->]
 		\item einfach den größten Münzwert nehmen, der den verbleibenden Betrag nicht übersteigt
 		\item \textbf{Problem:} funktioniert nur für \textit{kanonische Münzsysteme} wie in Deutschland oder USA
-		\item Was ist, wenn Lea in \textit{Templonia} lebt?
+		\item Was ist, wenn Philip in \textit{Templonia} lebt?
 		\item Dort gibt es nur 1, 3 und 4 templonische Säulen als Münzwerte!
 	\end{itemize}
 	\end{frame}
